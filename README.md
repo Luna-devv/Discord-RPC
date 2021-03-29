@@ -1,4 +1,4 @@
-# Morris-Seemann
+# SaveDiscord - Rich Presence (w/Buttons)
 
 1. Install Node.Js (https://nodejs.org/en/)
 2. Go to https://discord.com/developers/applications
