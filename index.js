@@ -20,8 +20,8 @@ client.on('ready', () => {
             large_text : "Discord is in Danger!",
             small_text : "Logo"
         },
-        buttons : [{label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"},{label : "SaveDiscord - Disord",url : "http://bit.ly/SaveDiscord_Dc"},{label : "Get this Rich Prescense yourself",url : "http://bit.ly/SaveDiscord_RP"}]
+        buttons : [{label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"},{label : "SaveDiscord - Disord",url : "http://bit.ly/SaveDiscord_Dc"}]
     }
     })
 })
-client.login({ clientId : "826097430301900851" }).catch(console.error);
+client.login({ clientId : "825853950833328201" }).catch(console.error);
