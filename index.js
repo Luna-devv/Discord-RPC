@@ -16,7 +16,7 @@ client.on('ready', () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity : {
-        details : "from Microsoft",                 //description
+             details : "from Microsoft",            //description
         assets : {
             large_image : "big",                    //large Picture
             small_image : "small",                  //small Picture
