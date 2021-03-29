@@ -2,7 +2,8 @@
 
 1. Install [Node.Js](https://nodejs.org/en/)
 2. Download the [latest](https://github.com/MorrisSeemann/SaveDiscord_Rich-Presence/archive/refs/tags/Latest.zip) release.
-3. Windows: Use **start.cmd** to start | Linux: Use **start.sh** to start
+3. Unzip the Downloaded File.
+4. Windows: Use **start.cmd** to start | Linux: Use **start.sh** to start
 
 
 # Extra (Change the Client ID/Pictures)
