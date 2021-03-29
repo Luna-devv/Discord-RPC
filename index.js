@@ -3,11 +3,14 @@ const client = new rpc.Client({ transport: 'ipc' })
 
 
 client.on('ready', () => {
-    console.log(" _____________________________________________ ");
-    console.log("|                                             |");
-    console.log("|           Das DRP ist nun online!           |");
-    console.log("|                                             |");
-    console.log("|_____________________________________________|");     //Log output
+    console.log(" ________________________________________________ ");
+    console.log("|                                                |");
+    console.log("|                                                |");
+    console.log("|             The DRP is now online              |");
+    console.log("|                                                |");
+    console.log("|                                                |");
+    console.log("|            <From: Morris & DreiMu>             |");
+    console.log("|________________________________________________|");     //Log output
 
 
     client.request('SET_ACTIVITY', {
