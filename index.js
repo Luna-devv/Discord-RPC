@@ -14,6 +14,7 @@ client.on('ready', () => {
         pid: process.pid,
         activity : {
         details : "from Microsoft",                 //description
+        partyId: "ae488379-351d-4a4f-ad32-2b9b01c91657",
         assets : {
             large_image : "big",                    //large Picture
             small_image : "small",                  //small Picture
