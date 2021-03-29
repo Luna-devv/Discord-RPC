@@ -1,7 +1,7 @@
 # SaveDiscord - Rich Presence (w/Buttons)
 
 1. Install Node.Js (https://nodejs.org/en/)
-2. Download "SaveDiscord - Discord RP.zip" (https://github.com/MorrisSeemann/SaveDiscord_Rich-Presence)
+2. Download all Files (https://github.com/MorrisSeemann/SaveDiscord_Rich-Presence)
 3. Windows: Use **start.cmd** to start | Linux: Use **start.sh** to start
 
 
