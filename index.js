@@ -3,14 +3,14 @@ const client = new rpc.Client({ transport: 'ipc' })
 
 
 client.on('ready', () => {
-    console.log(" ________________________________________________ ");
-    console.log("|                                                |");
-    console.log("|                                                |");
-    console.log("|             The DRP is now online              |");
-    console.log("|                                                |");
-    console.log("|                                                |");
-    console.log("|            <From: Morris & DreiMu>             |");
-    console.log("|________________________________________________|");     //Log output
+    console.log(" __________________________________________________________________ ");
+    console.log("|                                                                  |");
+    console.log("|                                                                  |");
+    console.log("|             The Discord Rich-Presence is now online              |");
+    console.log("|                                                                  |");
+    console.log("|                                                                  |");
+    console.log("|                     <From: Morris & DreiMu>                      |");
+    console.log("|__________________________________________________________________|");     //Log output
 
 
     client.request('SET_ACTIVITY', {
