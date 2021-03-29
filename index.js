@@ -21,7 +21,8 @@ client.on('ready', () => {
             large_text : "Discord is in Danger!",   //large Picture text (if u hover over it)
             small_text : "Logo"                     //small Picture text (if u hover over it)
         },
-        buttons : [{label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"},{label : "SaveDiscord - Discord",url : "http://bit.ly/SaveDiscord_Dc"}]  //Second Button
+        buttons : [{label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"}, //First Button
+                   {label : "SaveDiscord - Discord",url : "http://bit.ly/SaveDiscord_Dc"}]  //Second Button
     }
     })
 })
