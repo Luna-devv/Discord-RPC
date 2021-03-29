@@ -20,7 +20,7 @@ client.on('ready', () => {
             large_text : "Discord is in Danger!",
             small_text : "Logo"
         },
-        buttons : [{label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"},{label : "SaveDiscord - Disord",url : "http://bit.ly/SaveDiscord_Dc"}]
+        buttons : [{label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"},{label : "SaveDiscord - Discord",url : "http://bit.ly/SaveDiscord_Dc"}]
     }
     })
 })
