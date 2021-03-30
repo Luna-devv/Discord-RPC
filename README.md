@@ -6,14 +6,14 @@
 3. Unzip the Downloaded File.
 4. Windows: Use **start.cmd** to start | Linux: Use **start.sh** to start
 
-___
+
 ## Advanced
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
 2. Make a New Application
 3. Go to "**Index.js**" and change "**Your Client ID**" to your Client ID
 4. Go to "**Rich Presence**" in the Discord developer portal and add a picture called "**big**", and a picture called "**small**"
 
-___
+
 ## Help
 1. Text me on discord "**Morris‘s recovery partition#3518**"
 2. Wait
