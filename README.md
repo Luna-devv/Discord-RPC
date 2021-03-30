@@ -1,5 +1,8 @@
 # SaveDiscord - Rich Presence (w/Buttons)
 
+## before Install
+1. Read the LICANSE
+
 ## Install
 1. Install [Node.Js](https://nodejs.org/en/)
 2. Download the latest release from [here](https://github.com/MorrisSeemann/SaveDiscord_Rich-Presence/releases/latest) or an older Release (Not Supportet) from [here](https://github.com/MorrisSeemann/SaveDiscord_Rich-Presence/releases).
