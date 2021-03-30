@@ -17,6 +17,10 @@ client.on('ready', () => {
         pid: process.pid,
         activity : {
             details : "from Microsoft",                 //description
+            state: "Registred: "+nutzer+" User",
+	        "party": {
+	            "id": "#savediscord"
+	        },
             assets : {
                 large_image : "big",                    //large Picture
                 small_image : "small",                  //small Picture
