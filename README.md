@@ -1,7 +1,7 @@
 # SaveDiscord - Rich Presence (w/Buttons)
 
 ## before Install
-1. Read the LICANSE
+1. Read the LICENSE
 
 ## Install
 1. Install [Node.Js](https://nodejs.org/en/)
