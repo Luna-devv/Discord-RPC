@@ -16,15 +16,16 @@ client.on('ready', () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity : {
-             details : "from Microsoft",            //description
+        details : "from Microsoft",                 //description
         assets : {
             large_image : "big",                    //large Picture
             small_image : "small",                  //small Picture
             large_text : "Discord is in Danger!",   //large Picture text (if u hover over it)
             small_text : "Logo"                     //small Picture text (if u hover over it)
+
         },
         buttons : [{label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"}, //First Button
-                   {label : "SaveDiscord - Discord",url : "http://bit.ly/SaveDiscord_Dc"}]  //Second Button
+                   {label : "SaveDiscord - Discord",url : "http://bit.ly/SaveDiscord_DC"}]  //Second Button
     }
     })
 })
