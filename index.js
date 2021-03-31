@@ -29,7 +29,7 @@ client.on('ready', () => {
 
             buttons : [
 		    {label : "SaveDiscord - Website", url : "http://bit.ly/SaveDiscord_Web"},	       //First Button
-            {label : "SaveDiscord - Download this",url : "http://bit.ly/SaveDiscord_RP"}      //Second Button
+            {label : "SaveDiscord - Discord",url : "http://bit.ly/SaveDiscord_DC"}      //Second Button
 	    ]
         }
     })
