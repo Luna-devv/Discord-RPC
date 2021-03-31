@@ -22,3 +22,7 @@
 2. Wait
 3. Get an Answer
 4. wait forever for my answer more Answer
+
+## Thanks to
+1. [DreiMu](https://github.com/DreiMu) for helping me with GitHub
+2. [LPTP1](https://github.com/LPTP1Dev) for adding an API for the Live User Counter
