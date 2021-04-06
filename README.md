@@ -18,9 +18,9 @@
 
 
 ## Help
-1. Text me on discord "**Morris‘s recovery partition#3518**"
+1. Text me on discord "**Morris#1010**"
 2. Wait
-3. Get an Answer
+3. Get an answer
 
 ## Thanks to
 1. [DreiMu](https://github.com/DreiMu) for helping me with GitHub
