@@ -25,3 +25,4 @@
 ## Thanks to
 1. [DreiMu](https://github.com/DreiMu) for helping me with GitHub
 2. [LPTP1](https://github.com/LPTP1Dev) for adding an API for the Live User Counter
+3. [Anime forever](https://github.com/Anime-Forevere) to makeing my code brrr
