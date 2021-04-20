@@ -18,7 +18,7 @@
 
 
 ## Help
-1. Text me on discord "**Morris#1010**"
+1. Text me on discord [Morris#1010](https://discord.com/users/821472922140803112)
 2. Wait
 3. Get an answer
 
