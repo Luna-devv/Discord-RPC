@@ -1,4 +1,4 @@
-# SaveDiscord - Rich Presence (w/Buttons)
+# Discord - RPC
 
 ## before Install
 1. Read the LICENSE
@@ -10,7 +10,7 @@
 4. Windows: Use **start.cmd** to start | Linux: Use **start.sh** to start
 
 
-## Advanced
+## Edit
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
 2. Make a New Application
 3. Go to "**Index.js**" and change "**Your Client ID**" to your Client ID
@@ -18,11 +18,6 @@
 
 
 ## Help
-1. Text me on discord [Morris#1010](https://discord.com/users/821472922140803112)
+1. Text me on discord [Luna#8080](https://discord.com/users/821472922140803112)
 2. Wait
 3. Get an answer
-
-## Thanks to
-1. [DreiMu](https://github.com/DreiMu) for helping me with GitHub
-2. [LPTP1](https://github.com/LPTP1Dev) for adding an API for the Live User Counter
-3. [Anime forever](https://github.com/Anime-Forevere) to makeing my code brrr
