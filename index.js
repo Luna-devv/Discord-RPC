@@ -12,8 +12,8 @@ const updatePresence = async () => {
                 large_image : "big",                          //large Picture
                 large_text : "\"L\"-Logo",                    //large Picture text (if u hover over it)
 
-                small_image : "small",                        //large Picture
-                small_text: "\"Someones\"-logo",
+                small_image : "small",                        //small Picture
+                small_text: "\"Someones\"-logo",              //small Picture text (if u hover over it)
             },
             buttons : [
                 {label : "rpc's Discord server",url : "https://server.steals-code.tk/someones"},         //First Button
