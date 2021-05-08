@@ -1,4 +1,4 @@
-# Discord - RPC
+# SaveDiscord - Rich Presence (w/Buttons)
 
 ## before Install
 1. Read the LICENSE
@@ -10,7 +10,7 @@
 4. Windows: Use **start.cmd** to start | Linux: Use **start.sh** to start
 
 
-## Edit
+## Advanced
 1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
 2. Make a New Application
 3. Go to "**Index.js**" and change "**Your Client ID**" to your Client ID
@@ -18,6 +18,6 @@
 
 
 ## Help
-1. Text me on discord [Luna#8080](https://discord.com/users/821472922140803112)
+1. Text me on discord "**Morris‘s recovery partition#3518**"
 2. Wait
-3. Get an answer
+3. Get an Answer

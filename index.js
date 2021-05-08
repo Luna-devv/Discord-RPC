@@ -1,7 +1,37 @@
-var rpc = require("discord-rpc")                            
-const client = new rpc.Client({ transport: 'ipc' })         
-const fetch = require("node-fetch")                         
-let users = "A lot of"                                         
-const updatePresence = async () => {fetch("https://savediscord.com/api/usercount", { method: "GET" }).then(res => res.text()).then(body => users = body);client.request('SET_ACTIVITY', {pid: process.pid,activity : {details : "from Microsoft",state: users + " Users registered",assets : {large_image : "big",small_image : "small",large_text : "Discord was in Danger!",small_text : "SaveDiscord.com"},buttons : [{label : "Discord is saved!" , url : "http://bit.ly/SaveDiscord_end"},{label : "My Discord!",url : "https://dsc.gg/Morris"}]}})}
-client.on('ready', () => {console.log(" __________________________________________________________________ ");console.log("|                                                                  |");console.log("|                                                                  |");console.log("|             The Discord Rich-Presence is now online              |");console.log("|                                                                  |");console.log("|                                                                  |");console.log("|                     <From: Morris & LPTP1>                       |");console.log("|__________________________________________________________________|"); setTimeout(updatePresence, 5000);setInterval(updatePresence, 60000)});
-client.login({ clientId : "825853950833328201" }).catch(console.error);
+var rpc = require("discord-rpc")                            //import discord-rpc
+const client = new rpc.Client({ transport: 'ipc' })         //define "client"
+const fetch = require("node-fetch")                         //define "fetch"
+
+const updatePresence = async () => {
+    client.request('SET_ACTIVITY', {
+        pid: process.pid,
+        activity : {
+            details : "Edit this thing",                      //description
+            state: "Edit this thing 2",                       //How much Users
+            assets : {
+                large_image : "big",                          //large Picture
+                large_text : "\"L\"-Logo",                    //large Picture text (if u hover over it)
+
+                small_image : "small",                        //large Picture
+                small_text: "\"Someones\"-logo",
+            },
+            buttons : [
+                {label : "rpc's Discord server",url : "https://server.steals-code.tk/someones"},         //First Button
+                {label : "rpc's Website" , url : "https://noice.link/bio"}                               //Second Button
+            ]
+        }
+    })
+}
+
+
+client.on('ready', () => {
+    console.log(" __________________________________________________________________________ ");
+    console.log("|                                                                          |");
+    console.log("|                 The Discord Rich-Presence is now online                  |");
+    console.log("|                                                                          |");
+    console.log("|                              <From: Morris>                              |");
+    console.log("|__________________________________________________________________________|");     //Log output
+})
+setInterval(updatePresence, 15000)                                          //Update every 15 seconds
+
+client.login({ clientId : "835069063360151552" }).catch(console.error);     //ClientID
