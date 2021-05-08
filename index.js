@@ -29,7 +29,7 @@ client.on('ready', () => {
     console.log("|                                                                          |");
     console.log("|                 The Discord Rich-Presence is now online                  |");
     console.log("|                                                                          |");
-    console.log("|                              <From: Morris>                              |");
+    console.log("|                             <From: Luna-devv>                            |");
     console.log("|__________________________________________________________________________|");     //Log output
 })
 setInterval(updatePresence, 15000)                                          //Update every 15 seconds
