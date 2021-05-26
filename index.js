@@ -1,13 +1,13 @@
 var rpc = require("discord-rpc")                            //import discord-rpc
 const client = new rpc.Client({ transport: 'ipc' })         //define "client"
-const fetch = require("node-fetch")                         //define "fetch"
+const fetch = require("node-fetch")                         //define "fetch" (if u need)
 
 const updatePresence = async () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity : {
             details : "Edit this thing",                      //description
-            state: "Edit this thing 2",                       //How much Users
+            state: "Edit this thing 2",                       //state
             assets : {
                 large_image : "big",                          //large Picture
                 large_text : "\"L\"-Logo",                    //large Picture text (if u hover over it)
