@@ -5,7 +5,7 @@
 
 ## Install
 1. Install [Node.Js](https://nodejs.org/en/)
-2. Download the latest release from [here](https://github.com/Luna-devv/Discord-rpc)
+2. Download the latest release from [here](https://github.com/Luna-devv/Discord-RPC/releases/tag/discontinued)
 3. Unzip the Downloaded File.
 4. Windows: Use **start.cmd** to start | Linux: Use **start.sh** to start
 
