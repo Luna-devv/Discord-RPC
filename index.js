@@ -1,8 +1,6 @@
 var rpc = require("discord-rpc")                            //import discord-rpc
 const client = new rpc.Client({ transport: 'ipc' })         //define "client"
-const fetch = require("node-fetch")                         //define "fetch" (if u need)
 
-const updatePresence = async () => {
     client.request('SET_ACTIVITY', {
         pid: process.pid,
         activity : {
@@ -21,17 +19,10 @@ const updatePresence = async () => {
             ]
         }
     })
-}
 
 
 client.on('ready', () => {
-    console.log(" __________________________________________________________________________ ");
-    console.log("|                                                                          |");
-    console.log("|                 The Discord Rich-Presence is now online                  |");
-    console.log("|                                                                          |");
-    console.log("|                             <From: Luna-devv>                            |");
-    console.log("|__________________________________________________________________________|");     //Log output
+    console.log("ready");     //Log output
 })
-setInterval(updatePresence, 15000)                                          //Update every 15 seconds
 
 client.login({ clientId : "835069063360151552" }).catch(console.error);     //ClientID
