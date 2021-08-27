@@ -18,6 +18,6 @@
 
 
 ## Help
-1. Reach me on Discord: **[Luna#8080](https://discord.com/users/821472922140803112)**
+1. Reach me on Discord: **[Luni#8888](https://discord.com/users/821472922140803112)**
 2. Wait
 3. Get an Answer
