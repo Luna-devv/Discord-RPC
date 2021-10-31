@@ -18,6 +18,6 @@
 
 
 ## Help
-1. Reach me on Discord: **[Luni#8888](https://discord.com/users/821472922140803112)**
-2. Wait
+1. Reach me on Discord by **[joining our server](https://xyna.space/support)**.
+2. Ask friendly in a chat.
 3. Get an Answer
